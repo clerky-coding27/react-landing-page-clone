@@ -177,3 +177,13 @@ header {
     color: white;
   }
 }
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    font-size: 64px;
+    font-family: 'Schibsted Grotesk', sans-serif;
+  }
+}
