@@ -109,25 +109,32 @@ header {
   font-family: 'Schibsted Grotesk', sans-serif;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #d7fec8;
-  .navigation {
+
+  nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding: 0 64px;
     width: 100vw;
     .logo {
-      flex: 1 1 0%;
     }
     .navlist {
-      list-style: none;
       display: flex;
-      align-items: center;
+
+      ul {
+        list-style: none;
+        display: flex;
+        padding: 2rem;
+      }
     }
     .navButtons {
-      list-style: none;
       display: flex;
-      align-items: center;
+      ul {
+        list-style: none;
+        display: flex;
+      }
     }
   }
 }
