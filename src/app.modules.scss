@@ -1,4 +1,133 @@
-* {
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-mint-green-100: #f9fff6;
+  --brand-mint-green-200: #e8fedf;
+  --brand-mint-green-300: #d7fec8;
+  --brand-mint-green-400: #c6efb6;
+  --brand-mint-green-500: #abd799;
+  --brand-mint-green-600: #89ae79;
+  --brand-mint-green-700: #7d9374;
+  --brand-mint-green-800: #6b7e62;
+  --brand-mint-green-900: #5c6d55;
+  --brand-forest-green-100: #effaf7;
+  --brand-forest-green-200: #d8efe8;
+  --brand-forest-green-300: #b3dfd2;
+  --brand-forest-green-400: #71c4ab;
+  --brand-forest-green-500: #48ac8e;
+  --brand-forest-green-600: #0b996f;
+  --brand-forest-green-700: #02835c;
+  --brand-forest-green-800: #006a43;
+  --brand-forest-green-900: #004227;
+  --brand-cream-100: #fffdf6;
+  --brand-cream-200: #fffaeb;
+  --brand-cream-300: #faf5e3;
+  --brand-cream-500: #e3dec9;
+  --brand-cream-400: #f4eed7;
+  --brand-cream-600: #d0cbb5;
+  --brand-cream-700: #b7b098;
+  --brand-cream-800: #958e7b;
+  --brand-cream-900: #797566;
+  --brand-charcoal-grey-100: #f0f0f0;
+  --brand-charcoal-grey-200: #e3e3e3;
+  --brand-charcoal-grey-300: #cfcfcf;
+  --brand-charcoal-grey-400: #b5b5b5;
+  --brand-charcoal-grey-500: #858585;
+  --brand-charcoal-grey-600: #696969;
+  --brand-charcoal-grey-700: #474747;
+  --brand-charcoal-grey-800: #2c2c2c;
+  --brand-charcoal-grey-900: #1b1b1b;
+  --brand-iris-purple-100: #efeefc;
+  --brand-iris-purple-200: #dbd9f7;
+  --brand-iris-purple-300: #b3aeef;
+  --brand-iris-purple-400: #8b83e7;
+  --brand-iris-purple-500: #6358de;
+  --brand-iris-purple-600: #594fc8;
+  --brand-iris-purple-700: #4f46b2;
+  --brand-iris-purple-800: #463e9b;
+  --brand-iris-purple-900: #3c3585;
+  --brand-coral-orange-100: #fff4f0;
+  --brand-coral-orange-200: #ffe7e0;
+  --brand-coral-orange-300: #ffbb9e;
+  --brand-coral-orange-400: #ff976b;
+  --brand-coral-orange-500: #ff6e3d;
+  --brand-coral-orange-600: #ef6639;
+  --brand-coral-orange-700: #d9592e;
+  --brand-coral-orange-800: #bc4e2d;
+  --brand-coral-orange-900: #a24428;
+  --brand-aqua-teal-100: #f0fdfd;
+  --brand-aqua-teal-200: #dbf4f4;
+  --brand-aqua-teal-300: #b3e7e7;
+  --brand-aqua-teal-400: #6dd1d1;
+  --brand-aqua-teal-500: #1eb8b8;
+  --brand-aqua-teal-600: #159f9f;
+  --brand-aqua-teal-700: #279696;
+  --brand-aqua-teal-800: #116b6b;
+  --brand-aqua-teal-900: #0b5454;
+  --brand-peony-pink-100: #fff4f9;
+  --brand-peony-pink-200: #fce2eb;
+  --brand-peony-pink-300: #f5d5e1;
+  --brand-peony-pink-400: #f4afc7;
+  --brand-peony-pink-500: #fd86b2;
+  --brand-peony-pink-600: #f26d9e;
+  --brand-peony-pink-700: #f3397e;
+  --brand-peony-pink-800: #d9316c;
+  --brand-peony-pink-900: #b22556;
+  --brand-metallic-gold-100: #faf9f5;
+  --brand-metallic-gold-200: #f2efe5;
+  --brand-metallic-gold-300: #e3dbc4;
+  --brand-metallic-gold-400: #d1c4a0;
+  --brand-metallic-gold-500: #baa873;
+  --brand-metallic-gold-600: #af995c;
+  --brand-metallic-gold-700: #96834a;
+  --brand-metallic-gold-800: #746539;
+  --brand-metallic-gold-900: #5c502d;
+  --brand-tulip-red-100: #ffecee;
+  --brand-tulip-red-200: #ffd6db;
+  --brand-tulip-red-300: #ffb2bb;
+  --brand-tulip-red-400: #ff8d9a;
+  --brand-tulip-red-500: #ff6072;
+  --brand-tulip-red-600: #ff3a51;
+  --brand-tulip-red-700: #e72448;
+  --brand-tulip-red-800: #cf1a3b;
+  --brand-tulip-red-900: #b81735;
+  --brand-white: #fff;
+  --brand-black: #000;
+}
+
+body {
   font-family: 'Inter', sans-serif;
+  max-width: 100vw;
+  margin: auto;
+}
+
+header {
   font-family: 'Schibsted Grotesk', sans-serif;
+  display: flex;
+  align-items: center;
+  background-color: #d7fec8;
+  .navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 64px;
+    width: 100vw;
+    .logo {
+      flex: 1 1 0%;
+    }
+    .navlist {
+      list-style: none;
+      display: flex;
+      align-items: center;
+    }
+    .navButtons {
+      list-style: none;
+      display: flex;
+      align-items: center;
+    }
+  }
 }
