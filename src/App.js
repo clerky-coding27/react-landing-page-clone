@@ -8,8 +8,8 @@ export default function App() {
           <div className="logo">
             <a href="/#">
               <svg
-                width="81"
-                height="24"
+                width="136"
+                height="40"
                 viewBox="0 0 163 48"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -110,8 +110,10 @@ export default function App() {
               <li>
                 <a href="/#">Log in</a>
               </li>
-              <li className="SignUpButton">
-                <a href="/#">Sign Up Free</a>
+              <li>
+                <div className="SignUpButton">
+                  <a href="/#">Sign Up Free</a>
+                </div>
               </li>
             </ul>
           </div>
