@@ -105,12 +105,20 @@ body {
   margin: auto;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 header {
   font-family: 'Schibsted Grotesk', sans-serif;
+  font-weight: 550;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #d7fec8;
+  line-height: 0px;
+  font-size: 1.25rem;
 
   nav {
     display: flex;
@@ -118,23 +126,47 @@ header {
     justify-content: space-between;
     padding: 0 64px;
     width: 100vw;
-    .logo {
-    }
+    line-height: 0px;
+
     .navlist {
       display: flex;
+      align-items: center;
 
       ul {
         list-style: none;
         display: flex;
-        padding: 2rem;
+        align-items: center;
+
+        li {
+          padding: 2.25rem 1rem;
+          a {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+          }
+        }
       }
     }
     .navButtons {
       display: flex;
+      align-items: center;
       ul {
         list-style: none;
         display: flex;
+        align-items: center;
+        li {
+          padding-right: 1rem;
+        }
       }
     }
   }
+}
+
+li .SignUpButton {
+  background-color: black;
+}
+
+.SignUpButton {
+  font-size: 1.125rem;
+  color: white;
 }
