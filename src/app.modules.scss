@@ -169,10 +169,17 @@ header {
 }
 
 .SignUpButton {
+  font-family: 'Schibsted Grotesk', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 1.125rem;
   background-color: black;
+  font-weight: 550;
+
   padding: 1.5rem;
   border-radius: 1rem;
+  line-height: 0px;
   a {
     color: white;
   }

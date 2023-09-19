@@ -120,13 +120,28 @@ export default function App() {
         </nav>
       </header>
       <main>
-        <h1>Grow revenue with the most approachable CRM</h1>
-        <p>
-          The all-in-one platform to automate your marketing campaigns over
-          Email, SMS, WhatsApp or chat. Join the 500,000 companies who trust
-          Brevo.
-        </p>
-        <a href="/#">Sign Up Free</a>
+        <div className="Hero">
+          <div className="Hero-right">
+            <h1>Grow revenue with the most approachable CRM</h1>
+            <p>
+              The all-in-one platform to automate your marketing campaigns over
+              Email, SMS, WhatsApp or chat. Join the 500,000 companies who trust
+              Brevo.
+            </p>
+            <div className="SignUpButton">
+              <a href="/#">Sign Up Free</a>
+            </div>
+          </div>
+
+          <div className="Hero-Left">
+            <img
+              alt=""
+              height="500"
+              src="https://corp-backend.brevo.com/wp-content/uploads/2023/09/en_hero_section_image_website.webp"
+              width="500"
+            />
+          </div>
+        </div>
       </main>
     </body>
   );
