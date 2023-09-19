@@ -123,14 +123,20 @@ export default function App() {
         <div className="Hero">
           <div className="Hero-content">
             <div className="Hero-right">
-              <h1>Grow revenue with the most approachable CRM</h1>
-              <p>
-                The all-in-one platform to automate your marketing campaigns
-                over Email, SMS, WhatsApp or chat. Join the 500,000 companies
-                who trust Brevo.
-              </p>
-              <div className="SignUpButton">
-                <a href="/#">Sign Up Free</a>
+              <div className="Hero-h1">
+                <h1>Grow revenue with the most approachable CRM</h1>
+              </div>
+              <div className="Hero-p">
+                <p>
+                  The all-in-one platform to automate your marketing campaigns
+                  over Email, SMS, WhatsApp or chat. Join the 500,000 companies
+                  who trust Brevo.
+                </p>
+              </div>
+              <div className="Hero-SignUp">
+                <div className="SignUpButton">
+                  <a href="/#">Sign Up Free</a>
+                </div>
               </div>
             </div>
 
