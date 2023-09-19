@@ -280,12 +280,15 @@ export default function App() {
             </div>
           </div>
           <div className="Link-List">
-            <ul className="Link-Items">
-              <li>About</li>
-              <li>Products</li>
-              <li>Community</li>
-              <li>Support</li>
-            </ul>
+            <div className="Link-List-About">
+              <h2>About</h2>
+              <ul className="Link-Items-About">
+                <li>Example</li>
+                <li>Example</li>
+                <li>Example</li>
+                <li>Example</li>
+              </ul>
+            </div>
           </div>
         </div>
       </footer>
