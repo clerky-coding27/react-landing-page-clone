@@ -279,13 +279,18 @@ export default function App() {
               </ul>
             </div>
           </div>
-          <div className="Impressum">
-            <p>Impressum added soon</p>
+          <div className="Link-List">
+            <ul className="Link-Items">
+              <li>About</li>
+              <li>Products</li>
+              <li>Community</li>
+              <li>Support</li>
+            </ul>
           </div>
         </div>
       </footer>
-      <div className="empty">
-        <p className="empty-p">Empty</p>
+      <div className="Impressum">
+        <p className="Impressum-p">Empty</p>
       </div>
     </body>
   );

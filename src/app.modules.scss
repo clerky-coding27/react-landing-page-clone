@@ -122,8 +122,9 @@ header {
   line-height: 0px;
   font-size: 1.25rem;
   top: 0;
-  height: 104px;
-  max-height: 104px;
+  height: 96px;
+  max-height: 96px;
+
   position: sticky;
 
   nav {
@@ -256,7 +257,6 @@ footer {
 
   .Footer-content {
     padding: 0 64px;
-
     width: 100vw;
 
     .App-footer {
@@ -266,6 +266,7 @@ footer {
       line-height: 0px;
       bottom: 0px;
       border-bottom: 0.0625rem solid black;
+      height: 137px;
 
       ul {
         list-style: none;
@@ -279,12 +280,18 @@ footer {
       }
     }
 
-    .Impressum {
+    .Link-List {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      line-height: 0px;
-      height: 40px;
+      line-height: 40px;
+      flex-direction: column;
+
+      .Link-Items {
+        list-style: none;
+        display: flex;
+        align-items: center;
+      }
     }
   }
 }
@@ -293,5 +300,4 @@ footer {
   background-color: #f9fff6;
 
   height: 100rem;
-  min-height: 104px;
 }
