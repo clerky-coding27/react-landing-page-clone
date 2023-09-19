@@ -169,6 +169,10 @@ header {
   }
 }
 
+.globe {
+  padding-right: 1rem;
+}
+
 .SignUpButton {
   font-family: 'Schibsted Grotesk', sans-serif;
   display: flex;
@@ -209,6 +213,7 @@ main {
 
 .Hero {
   background-color: #d7fec8;
+  border-radius: 0 0 170px 0;
   width: 100vw;
   display: flex;
   align-items: center;
