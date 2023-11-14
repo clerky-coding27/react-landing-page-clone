@@ -6,6 +6,9 @@ Welcome to the React Landing Page project! In this implementation, I've crafted 
 
 I used brevo.com as the landing page to copy. 
 
+If you have suggestions or find ways to enhance the implementation, don't hesitate to open an issue or submit a pull request. Happy coding!
+
+
 
 ## Project Structure
 
@@ -23,4 +26,3 @@ I used brevo.com as the landing page to copy.
 <img width="1710" alt="Screenshot 2023-11-14 at 12 15 38" src="https://github.com/clerky-coding27/react-landing-page-clone/assets/141315398/a55d888a-d299-4ec1-b16f-da792f814039">
 
 
-If you have suggestions or find ways to enhance the implementation, don't hesitate to open an issue or submit a pull request. Happy coding!
