@@ -2,11 +2,10 @@
 
 ## Overview
 
-Welcome to the React Landing Page project! In this implementation, I've crafted a landing page using React, CSS Modules, and SCSS. The goal was to rebuild an original landing page in React while closely emulating its design and structure. Also, the goal was to ensure responsiveness and a visually appealing design across various screen sizes.
+Welcome to the React Landing Page project! In this implementation, I've crafted a landing page using React, CSS Modules, and SCSS. The goal was to rebuild an original landing page in React while closely emulating its design and structure. Also, the goal was to ensure responsiveness and a visually appealing design across various screen sizes. This project is a representation of the skills and attention to detail involved in styling a page. It served as an exercise in learning and applying frontend technologies.
 
 I used brevo.com as the landing page to copy. 
 
-👷 **This project is still under construction** 👷
 
 ## Project Structure
 
@@ -14,6 +13,8 @@ I used brevo.com as the landing page to copy.
 - CSS Modules and SCSS are used for styling, promoting modularity and maintainability.
 
 ## Project Status
-This project is a representation of the skills and attention to detail involved in styling a page. It served as an exercise in learning and applying frontend technologies.
+
+👷 **This project is still under construction** 👷
+
 
 If you have suggestions or find ways to enhance the implementation, don't hesitate to open an issue or submit a pull request. Happy coding!
